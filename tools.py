@@ -35,9 +35,8 @@ def diff_between_dates(
     """
     dict_response: dict = {
         "days": diff_days,
-        "diff_hours": diff_hours
+        "hours": diff_hours
     }
-
     # import json
     # return json.dumps(dict_response)
     return dict_response
